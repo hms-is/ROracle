@@ -102,18 +102,19 @@ fi
 # patch 64bit include headers
 #
 echo "copying from" ${ROCI_INC}
-cp ${ROCI_INC}/nzerror.h ./src/oci
-cp ${ROCI_INC}/nzt.h ./src/oci
-cp ${ROCI_INC}/oci.h ./src/oci
-cp ${ROCI_INC}/oci1.h ./src/oci
-cp ${ROCI_INC}/oci8dp.h ./src/oci
-cp ${ROCI_INC}/ociap.h ./src/oci
-cp ${ROCI_INC}/ociapr.h ./src/oci
-cp ${ROCI_INC}/ocidfn.h ./src/oci
-cp ${ROCI_INC}/ociextp.h ./src/oci
-cp ${ROCI_INC}/ocixmldb.h ./src/oci
-cp ${ROCI_INC}/ocixstream.h ./src/oci
-cp ${ROCI_INC}/ori.h ./src/oci
-cp ${ROCI_INC}/orl.h ./src/oci
-cp ${ROCI_INC}/oro.h ./src/oci
-cp ${ROCI_INC}/ort.h ./src/oci
+#cp ${ROCI_INC}/nzerror.h ./src/oci
+#cp ${ROCI_INC}/nzt.h ./src/oci
+#cp ${ROCI_INC}/oci.h ./src/oci
+#cp ${ROCI_INC}/oci1.h ./src/oci
+#cp ${ROCI_INC}/oci8dp.h ./src/oci
+#cp ${ROCI_INC}/ociap.h ./src/oci
+#cp ${ROCI_INC}/ociapr.h ./src/oci
+#cp ${ROCI_INC}/ocidfn.h ./src/oci
+#cp ${ROCI_INC}/ociextp.h ./src/oci
+#cp ${ROCI_INC}/ocixmldb.h ./src/oci
+#cp ${ROCI_INC}/ocixstream.h ./src/oci
+#cp ${ROCI_INC}/ori.h ./src/oci
+#cp ${ROCI_INC}/orl.h ./src/oci
+#cp ${ROCI_INC}/oro.h ./src/oci
+#cp ${ROCI_INC}/ort.h ./src/oci
+cp ${ROCI_INC}/*.h ./src/oci
